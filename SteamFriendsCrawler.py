@@ -39,7 +39,7 @@ def Spider(seed, depth):
                 if count >= queryLimit:
                     break
         #fList += holdB #obsolete
-        with open(filePath+r'FriendsList_Depth_'+str(depth)+r'.json', 'a') as file:
+        with open(filePath+r'FriendsList_Depth_'+str(depth)+r'.txt', 'a') as file:
             file.write(str(holdB))
         holdA = holdB
         holdB = []
